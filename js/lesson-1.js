@@ -21,23 +21,53 @@ if (min >= 0 && min < 15) {
 // "Вибачте, але ви маєте ввести значення від 1 до 4 включно".
 // Значення змінної result виведіть в консоль.
 
- let(num) = ('1', ('2'), ('3'), ('4'));
-
-const num = prompt('1', '2', ('3'), ('4'));
+/* const num = prompt("Введіть число від 1 до 4:");
 let result;
 switch (num) {
-    case '1':
-    result = 'зима';
+  case "1":
+    result = "зима";
     break;
-    case '2':
-    result = 'весна';
+  case "2":
+    result = "весна";
     break;
- case '3':
- result = 'літо';
+  case "3":
+    result = "літо";
     break;
-  case '4':
-    result = 'осінь';
-        break;
-     default:
+  case "4":
+    result = "осінь";
+    break;
+  default:
     result = "Вибачте, але ви маєте ввести значення від 1 до 4 включно";
 }
+*/
+/*const minutes = parseInt(prompt("Введіть кількість хвилин:"), 10);
+const hours = Math.floor(minutes / 60);
+const remainingMinutes = minutes % 60;
+const formattedTime = `${String(hours).padStart(2, "0")}:${String(
+  remainingMinutes
+).padStart(2, "0")}`;
+console.log(formattedTime);*/
+
+/*const login = prompt("Введіть логін:");
+if (login === "Адмін") {
+  const password = prompt("Введіть пароль:");
+  if (password === "Я головний") {
+    alert("Добрий день!");
+  } else if (password === null || password === "") {
+    alert("Скасовано");
+  } else {
+    alert("Невірний пароль!");
+  }
+} else if (login === null || login === "") {
+  alert("Скасовано");
+} else {
+  alert("Я вас не знаю");
+}
+*/
+/*let i = 0;
+
+while (i <= 20) {
+  console.log(i);
+  i++;
+}
+  */
